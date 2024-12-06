@@ -1,0 +1,38 @@
+{
+    "single_round_session": [
+        {
+            "from": "user",
+            "value": ""
+        },
+        {
+            "from": "system",
+            "value": "From <s0> to <e0>."
+        }
+    ],
+    "mutiple_round_session": [
+        {
+            "from": "user",
+            "value": ""
+        },
+        {
+            "from": "system",
+            "value": "From <s0> to <e0>."
+        },
+        {
+            "from": "user",
+            "value": "Between which frames can we find google java applet taking place in the video?"
+        },
+        {
+            "from": "system",
+            "value": "From <s1> to <e1>."
+        },
+        {
+            "from": "user",
+            "value": "What is the color of the car in the video?"
+        },
+        {
+            "from": "system",
+            "value": "The color of the car is <s2>."
+        }
+    ]
+}

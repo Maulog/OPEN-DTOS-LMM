@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES="3" python -m debugpy --listen 5678 --wait-for-client mllm/demo/web_demo.py 
