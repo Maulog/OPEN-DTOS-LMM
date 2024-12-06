@@ -1,10 +1,14 @@
 # DTOS: Dynamic Time Object Sensing with LMM
 
-<img src="assert\motivation.png#pic_center" alt="motivation" style="zoom:38%;" />
+<p align="center">
+<img src="assert\motivation.png#pic_center" alt="motivation" style="width:38%;" />
+</p>
 
 ## Overview
 
+<p align="center">
 <img src="assert\model.png#pic_center" alt="model"/>
+</p>
 
 DTOS demonstrates exceptional capability in flexibly localizing multiple spatiotemporal targets based on user provided textual instructions.
 
@@ -28,10 +32,8 @@ cp -rv ./llava/train/deepspeed_replace/* $site_pkg_path/deepspeed/
 ### Download Pretrained Models
 
 Please download 
-
 [VILA](https://huggingface.co/collections/Efficient-Large-Model/vila-on-pre-training-for-visual-language-models-65d8022a3a52cd9bcd62698e),
 [SAM2](https://huggingface.co/models?search=facebook/sam2)
-
  weight checkpoints. We haven't use SAM2.1 checkpoint work yet.
 
 ### Dataset Preparation
@@ -111,15 +113,23 @@ python mllm/tools/auto_pack_and_transfer_files.py
 
 ## Performance
 
-<img src="assert\RVOS_comp.png#pic_center" alt="RVOS"  />
+<p align="center">
+<img src="assert\RVOS_comp.png#pic_center" alt="RVOS" style="width:80%;" />
+</p>
 
+<p align="center">
 <img src="assert\MR_comp.png#pic_center" alt="MR"  />
+</p>
 
 ## Visualizations
 
+<p align="center">
 <img src="assert\visualization.png#pic_center" alt="vis"  />
+</p>
 
+<p align="center">
 <img src="assert\more_visualizations.png#pic_center" alt="more_vis"  />
+</p>
 
 ## Acknowledgement
 
