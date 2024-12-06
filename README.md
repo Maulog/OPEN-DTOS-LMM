@@ -4,7 +4,7 @@
 
 ## Overview
 
-![model](assert\model.png)
+<img src="assert\model.png#pic_center" alt="model"/>
 
 DTOS demonstrates exceptional capability in flexibly localizing multiple spatiotemporal targets based on user provided textual instructions.
 
@@ -29,11 +29,8 @@ cp -rv ./llava/train/deepspeed_replace/* $site_pkg_path/deepspeed/
 
 Please download 
 
-[VILA]: https://huggingface.co/collections/Efficient-Large-Model/vila-on-pre-training-for-visual-language-models-65d8022a3a52cd9bcd62698e
-
-,
-
-[SAM2]: https://huggingface.co/models?search=facebook/sam2
+[VILA](https://huggingface.co/collections/Efficient-Large-Model/vila-on-pre-training-for-visual-language-models-65d8022a3a52cd9bcd62698e),
+[SAM2](https://huggingface.co/models?search=facebook/sam2)
 
  weight checkpoints. We haven't use SAM2.1 checkpoint work yet.
 
@@ -43,28 +40,26 @@ Please download these original datasets.
 
 **Moment Retrieval**
 
-- [DiDeMo]: https://github.com/lisaanne/localizingmoments?tab=readme-ov-file#localizing-moments-in-video-with-natural-language
+- [DiDeMo](https://github.com/lisaanne/localizingmoments?tab=readme-ov-file#localizing-moments-in-video-with-natural-language)
 
-- [Activity-Captions]: https://github.com/ranjaykrishna/densevid_eval
+- [Activity-Captions](https://github.com/ranjaykrishna/densevid_eval)
 
-- [Charades-STA]: https://github.com/jiyanggao/TALL
+- [Charades-STA](https://github.com/jiyanggao/TALL)
 
-- [QVHighlights]: https://github.com/jayleicn/moment_detr
+- [QVHighlights](https://github.com/jayleicn/moment_detr)
 
 Then use ` reorganize_data.ipynb` to reorganize dataset in the tree datasets.
 
 **Referring Video Object Segmentation**
 
-- [MeViS]: https://github.com/henghuiding/MeViS
+- [MeViS](https://github.com/henghuiding/MeViS)
 
-- [Ref-YT-VOS]: https://github.com/skynbe/Refer-Youtube-VOS
+- [Ref-YT-VOS](https://github.com/skynbe/Refer-Youtube-VOS)
 
-- [Ref-DAVIS17]: https://github.com/davisvideochallenge/davis2017-evaluation
+- [Ref-DAVIS17](https://github.com/davisvideochallenge/davis2017-evaluation)
 
 Please refer 
-
-[VISA]: https://github.com/cilinyan/VISA?tab=readme-ov-file#1-training-data-preparation
-
+[VISA](https://github.com/cilinyan/VISA?tab=readme-ov-file#1-training-data-preparation)
 data prepare code. Our dataset code will process these styles of YouTube automatically.
 
 ## Training and Validation
@@ -116,48 +111,32 @@ python mllm/tools/auto_pack_and_transfer_files.py
 
 ## Performance
 
-![RVOS_comp](assert\RVOS_comp.png)
+<img src="assert\RVOS_comp.png#pic_center" alt="RVOS"  />
 
-![MR_comp](assert\MR_comp.png)
+<img src="assert\MR_comp.png#pic_center" alt="MR"  />
 
 ## Visualizations
 
-![visualization](assert\visualization.png)
+<img src="assert\visualization.png#pic_center" alt="vis"  />
 
-![more_visualizations](assert\more_visualizations.png)
+<img src="assert\more_visualizations.png#pic_center" alt="more_vis"  />
 
 ## Acknowledgement
 
 This work is built upon the 
-
-[VILA]: https://github.com/NVlabs/VILA
-
+[VILA](https://github.com/NVlabs/VILA)
 , 
-
-[SAM2]: https://github.com/facebookresearch/sam2
-
+[SAM2](https://github.com/facebookresearch/sam2)
 , 
-
-[Next-Chat]: https://github.com/NExT-ChatV/NExT-Chat
-
+[Next-Chat](https://github.com/NExT-ChatV/NExT-Chat)
 , 
-
-[SAM]: https://github.com/facebookresearch/segment-anything
-
+[SAM](https://github.com/facebookresearch/segment-anything)
 , 
-
-[Moment-DETR]: https://github.com/jayleicn/moment_detr
-
+[Moment-DETR](https://github.com/jayleicn/moment_detr)
 , 
-
-[DETR]: https://github.com/facebookresearch/detr
-
+[DETR](https://github.com/facebookresearch/detr)
 , 
-
-[LLaVA]: https://github.com/haotian-liu/LLaVA
-
+[LLaVA](https://github.com/haotian-liu/LLaVA)
 and 
-
-[MeViS]: https://github.com/henghuiding/MeViS
-
+[MeViS](https://github.com/henghuiding/MeViS)
 .
