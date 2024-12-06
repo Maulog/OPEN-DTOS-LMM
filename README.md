@@ -50,7 +50,7 @@ Please download these original datasets.
 
 - [QVHighlights](https://github.com/jayleicn/moment_detr)
 
-Then use ` reorganize_data.ipynb` to reorganize dataset in the tree datasets.
+Then use `reorganize_data.ipynb` to reorganize dataset in the tree datasets.
 
 **Referring Video Object Segmentation**
 
@@ -66,7 +66,7 @@ data prepare code. Our dataset code will process these styles of YouTube automat
 
 ## Training and Validation
 
-Our config files are in ` config\`. Please determine their hyperparameters.
+Our config files are in `config\`. Please determine their hyperparameters.
 
 ### Stage1
 
